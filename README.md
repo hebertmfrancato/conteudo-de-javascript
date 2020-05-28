@@ -1,2 +1,2 @@
-# Curso de JavaScript
- Repositório para compartilhar conteúdos de JavaScript.
+# Conteúdo de JavaScript
+ Repositório para compartilhar conteúdos gerais de JavaScript.
