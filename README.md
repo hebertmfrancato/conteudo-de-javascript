@@ -1,2 +1,2 @@
-# curso-de-javascript
+# Curso de JavaScript
  Estudos e conteúdos de JavaScript
