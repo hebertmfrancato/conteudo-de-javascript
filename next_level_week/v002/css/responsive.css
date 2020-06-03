@@ -27,7 +27,7 @@
     }
 }
 
-@media (min-height: 760px) {
+@media (max-height: 760px) {
     #page-home {
         background-position-y: 200px;
     }
