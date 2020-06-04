@@ -36,7 +36,7 @@ function getCities(event) {
         
 
         for( const city of cities ) {
-            citySelect.innerHTML += `<option value="${city.id}">${city.nome}</option>`
+            citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
         }
 
         citySelect.disabled = false
@@ -45,4 +45,18 @@ function getCities(event) {
 
 document
     .querySelector("select[name=uf]")
-    .addEventListener("change", getCities)
+    .addEventListener("change", getCities) // ouviudor de eventos
+
+    // Itens de coleta
+    // pegar todos os li's
+    const itemsToCollect = document.querySelectorAll(".items-grid li");
+
+    for (const item of itemsToCollect) {
+        item.addEventListener("click", handleSelectedItem)
+    }
+
+    function handleSelectedItem(event) {
+        const itemId = event.target.dataset.id
+        console.log()
+    }
+
