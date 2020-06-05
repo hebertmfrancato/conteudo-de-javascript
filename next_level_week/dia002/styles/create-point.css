@@ -118,7 +118,7 @@ form button {
     transition: background-color 400ms; /* tempo da annimaçãocriada no hover */
 }
 
-form button:hover { /* hover dar efeito quando pasar o mouse em cima do botão */
+form button:hover { /* hover dar efeito quando passar o mouse em cima do botão */
     background-color: #2fb86e;
 }
 

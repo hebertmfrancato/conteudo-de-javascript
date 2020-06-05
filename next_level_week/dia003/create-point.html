@@ -17,7 +17,7 @@
 
         <header>
             <img src="/next_level_week/dia003/assets/logo.svg" alt="Logomarca">
-            <a href="https://www.google.com/">
+            <a href="index.html">
                 <span> </span>
                 Voltar para home
             </a>
@@ -41,18 +41,18 @@
                 <div class="field-group"><!-- segundo campo, neste caso um agrupamento de dois campos, para isso usasse field*2, vc litaralmente multiplica a qtd de campos quer deseja dentro do mesmo grupo -->
                 <div class="field">
                     <label for="address">Endereço</label>
-                    <input type="text" name="address">
+                    <input type="text" name="address" required>
                 </div>
                 <div class="field">
-                    <label for="address">Número / Complemento</label>
-                    <input type="text" name="address">
+                    <label for="address2">Número / Complemento</label>
+                    <input type="text" name="address2" required>
                 </div>
             </div>
 
             <div class="field-group">
                 <div class="field">
                     <label for="state">Estado</label>
-                    <select name="uf">
+                    <select name="uf" required>
                         <option value="">Selecione o Estado</option>
                     </select>
 
@@ -60,19 +60,54 @@
                 </div>
                 <div class="field">
                     <label for="city">Cidade</label>
-                    <select name="city" disabled>
+                    <select name="city" disabled required>
                         <option value="">Selecione o Cidade</option>
                     </select>
                 </div>
         </div>
 
-            </fieldset> 
+    </fieldset> 
 
-            <fieldset>
-                <legend>
-                    <h2>Itens de coleta</h2>
-                </legend>
-            </fieldset>
+    <fieldset>
+        <legend>
+            <h2>Itens de coleta</h2>
+        </legend>
+    
+    <div class="items-grid">
+        <li data-id="1">
+            <img src="/next_level_week/dia003/assets/lampadas.svg" alt="Lâmpadas">
+            <span>Lâmpadas</span>
+        </li>
+
+        <li data-id="2">
+            <img src="/next_level_week/dia003/assets/baterias.svg" alt="Pilhas e Baterias">
+            <span>Pilhas e Baterias</span>
+        </li>
+
+        <li data-id="3">
+            <img src="/next_level_week/dia003/assets/papeis-papelao.svg" alt="Papéis e Papelão">
+            <span>Papéis e Papelão</span>
+        </li>
+
+        <li data-id="4">
+            <img src="/next_level_week/dia003/assets/eletronicos.svg" alt="Resíduo Eletrônicos">
+            <span>Resíduo Eletrônicos</span>
+        </li>
+
+        <li data-id="5">
+            <img src="/next_level_week/dia003/assets/organicos.svg" alt="Resíduos Orgânicos">
+            <span>Resíduos Orgânicos</span>
+        </li>
+
+        <li data-id="6">
+            <img src="/next_level_week/dia003/assets/oleo.svg" alt="Óleo de Cozinha">
+            <span>Óleo de Cozinha</span>
+        </li>
+    </div>
+
+    <input type="hidden" name="items">
+
+</fieldset>
 
             <button type="submit">Cadastrar ponto de coleta</button>
 
