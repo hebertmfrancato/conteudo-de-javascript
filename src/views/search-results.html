@@ -9,22 +9,27 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/dia004/styles/main.css">
-    <link rel="stylesheet" href="/dia004/styles/search-results.css">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/search-results.css">
 
-    <link rel="stylesheet" href="/dia004/styles/responsive.css">
+    <link rel="stylesheet" href="/styles/responsive.css">
 </head>
 <body>
 
     <div id="page-search-results">
 
+        <!-- O header foi substituído pelo include, para passar a ser dinâmico -->
+        <!-- 
         <header>
-            <img src="/dia004/assets/logo.svg" alt="Logomarca">
+            <img src="/assets/logo.svg" alt="Logomarca">
             <a href="index.html">
                 <span></span>
                 Voltar para home
             </a> 
         </header>
+        -->
+
+        {% include "partials/page-header.html" %}
 
         <main>
 
