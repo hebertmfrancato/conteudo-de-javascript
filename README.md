@@ -1,7 +1,7 @@
 <h1 align="center"> Next Level Week #1 🚀 </h1> 
 
 <h1 align="center">
-    <img src="public/nlw.jpg">
+    <img src="public/nlw.png">
  </h1> 
 
 ### Sobre
