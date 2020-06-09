@@ -17,7 +17,7 @@ O **NLW** foi uma experiência online com muito conteúdo prático, desafios e h
 
 ### Agradecimentos
 
-Um agradecimento especial ao instrutor Mayk Brito e ao Diego Fernandes. 🚀💜
+Um agradecimento especial ao instrutor Mayk Brito e ao Diego Fernandes. 🚀 💜
 
 <h1 align="center">
     <img src="public/ecoleta-home.png">
